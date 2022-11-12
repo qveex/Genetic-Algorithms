@@ -1,0 +1,6 @@
+
+
+
+fun main() {
+    GA().evolve()
+}
