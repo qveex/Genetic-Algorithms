@@ -15,7 +15,6 @@ const val RESULT_FILE = "result.txt"
 fun main() {
     File(RESULT_FILE).delete()
     println(VARIANT)
-
     val population = mutableListOf<Individual>()
     val begin = System.currentTimeMillis()
     population.apply {
